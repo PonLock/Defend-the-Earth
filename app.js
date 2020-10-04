@@ -1,4 +1,4 @@
-//document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
     let earthHp = 20
     let alienShipHp = 15
     let score = 0
@@ -540,4 +540,4 @@
             startGame()
         },1500)
     })
-//})
+})
