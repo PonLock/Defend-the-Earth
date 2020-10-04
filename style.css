@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    position: absolute;
+    top: 50%;
+    right: 37.75%;
+    max-width: 50%;
+    max-height: 10%;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    transition: transform 420ms ease-in;
+    background-color: #868f96;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    height: 100vh;
+}
+
+.info__board{
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+}
+
+footer, a{
+    color: blueviolet;
+    margin-top: 2rem;
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.board{
+    height: 85.379%;
+    width: 41.667%;
+    position: relative;
+    background-color: gray;
+    background-image: url(/img/622.jpg);
+    margin-top: 1rem;
+}
+
+.msg{
+    position: absolute;
+    top: 43.75%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    color: yellowgreen;
+    
+}
+
+.earth{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 1.875%;
+    left: 33.75%;
+}
+
+.earth__shield{
+    position: absolute;
+    height: 16%; 
+    width: 16%;
+    bottom: 10%;
+    left: 44.125%;
+    background-image: url(/img/shield.png);
+    background-size: 100%;
+    background-position: center;
+    z-index: 1;
+}
+
+.meteor{
+    position: absolute;
+    height: 8%; 
+    width: 8%;
+    background-size: 100%;
+}
+
+
+.meteor:hover{
+    cursor: pointer;
+}
+
+.bonuses{
+    position: absolute;
+    height: 8%; 
+    width: 8%;
+    background-size: 100%;
+}
+
+.bonuses:hover{
+    cursor: pointer;
+}
+
+.big{
+    position: absolute;
+    height: 16%; 
+    width: 16%;
+    top: 1.25%;
+    left: 43.75%;
+    background-image: url(/img/ufo.png);
+    background-size: 100%;
+}
+
+.big:hover{
+    cursor: pointer;
+}
+
+.shoot{
+    position: absolute;
+    height: 35px;
+    width: 15px;
+    background-color: teal;
+    border-radius: 1rem;
+}
+
+.ship__hp{
+    position: absolute;
+    top: 1.25%;
+    left: 43.75%;
+    color: yellowgreen;
+    user-select: none;
+}
+
+.shield__time{
+    position: absolute;
+    bottom: 16.875%;
+    right: 47.125%;
+    z-index: 100;
+}
+
+.show__dmg{
+    position: absolute;
+    color: yellowgreen;
+    user-select: none;
+}
+
+.time{
+    user-select: none;
+    color: yellowgreen;
+}
+
+.time__bonus{
+    font-size: .988rem;
+    position: absolute;
+    top: 0%;
+    margin-left: 1rem;
+    user-select: none;
+    color: yellowgreen;
+}
+
+.bonus__info{
+    font-size: .988rem;
+    position: absolute;
+    right: 0px;
+    user-select: none;
+    color: yellowgreen;
+}
+
+.boomInEarth{
+    position: absolute;
+    height: 4%; 
+    width: 4%;
+    z-index: 100;
+    background-image: url(/img/nuclear-explosion.png);
+    background-size: 100%;
+}
+
+.boomInMeteor{
+    position: absolute;
+    height: 4%; 
+    width: 4%;
+    z-index: 100;
+    background-image: url(/img/explosion.png);
+    background-size: 100%;
+}
